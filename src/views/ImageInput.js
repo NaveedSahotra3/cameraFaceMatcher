@@ -4,7 +4,7 @@ import { loadModels, getFullFaceDescription, createMatcher } from '../api/face';
 
 // Import image to test API
 const testImg = require('../img/test.jpg');
-
+// const testImg = require('../img/img1.jpg');
 // Import face profile
 const JSON_PROFILE = require('../descriptors/bnk48.json');
 
