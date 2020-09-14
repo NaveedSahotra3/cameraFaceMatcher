@@ -6,6 +6,7 @@ import './App.css';
 import Home from './views/Home';
 import ImageInput from './views/ImageInput';
 import VideoInput from './views/VideoInput';
+// import Custom from "./custom/custome"
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/photo" component={ImageInput} />
             <Route exact path="/camera" component={VideoInput} />
+            {/* <Route exact path="/custom" component={Custom} /> */}
           </div>
         </Router>
       </div>
